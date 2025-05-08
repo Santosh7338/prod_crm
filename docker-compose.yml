@@ -1,14 +1,18 @@
 version: '3.0'
 services:
     Java:
-        build: /root/jenkins/workspace/prod_crm
+        build: /var/lib/jenkins/workspace/prod_crm
         container_name: prodcrm
         image: prod_crm
         networks:
             - java_connect
         ports:
-            - 3003:8080
-        restart: always          
+            - 9090:9090
+        restart: always
+        environment:
+           - DB_USERNAME=${DB_USERNAME}
+           - DB_PASSWORD=${DB_PASSWORD}
+           - DB_URL=${DB_URL}
 networks:
     java_connect:
         external: true
