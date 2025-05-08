@@ -1,7 +1,7 @@
 version: '3.0'
 services:
     Java:
-        build: /var/lib/jenkins/workspace/prod_crm
+        build: /var/lib/jenkins/workspace/ABC
         container_name: prodcrm
         image: prod_crm
         networks:
