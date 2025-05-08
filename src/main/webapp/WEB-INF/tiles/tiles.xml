@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+	<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+	<tiles-definitions>
+
+	<definition name="adminbsb.definition" template="/WEB-INF/views/crm/layout/layout.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="header"
+				value="/WEB-INF/views/crm/layout/header.jsp" />
+			<put-attribute name="menu" value="/WEB-INF/views/crm/layout/menu.jsp" />
+			<put-attribute name="body" value="" />
+			<put-attribute name="footer"
+				value="/WEB-INF/views/crm/layout/footer.jsp" />
+	</definition>
+	
+	<!-- <definition name="welcome" template="/WEB-INF/views/index.jsp">
+	<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/index.jsp"/>
+	</definition> -->
+	
+	<definition name="welcome" template="/WEB-INF/views/crm/layout/login.jsp">
+	<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/layout/login.jsp"/>
+	</definition>
+	
+	<definition name="dashboard" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/layout/dashboard.jsp"/>
+	</definition>
+	
+	<definition name="enquiry" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/enquiry.jsp"/>
+	</definition>
+	
+	<definition name="crmrecords" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/crmrecords.jsp"/>
+	</definition>
+	
+	<definition name="crmrecordshr" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/crmrecordshr.jsp"/>
+	</definition>
+	
+	<definition name="addtargetconfig" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/targetConfiguration.jsp"/>
+	</definition>
+	
+	<definition name="addincentiveConfiguration" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/incentiveConfiguration.jsp"/>
+	</definition>
+	
+	<definition name="crmerror" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/crmerror.jsp"/>
+	</definition>
+	
+	<definition name="crmconfiguration" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/configurationRecords.jsp"/>
+	</definition>
+	
+	<definition name="profile" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/profile.jsp"/>
+	</definition>
+	
+	<definition name="assigntertory" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/assigntertory.jsp"/>
+	</definition>
+	
+	<definition name="createterritory" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/createterritory.jsp"/>
+	</definition>
+	
+	<definition name="createregion" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/createregion.jsp"/>
+	</definition>
+	
+	<definition name="calindersetup" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/calindersetup.jsp"/>
+	</definition>
+	
+	<definition name="reports" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/reports.jsp"/>
+	</definition>
+	
+	<definition name="assignedenquery" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/assignedenquery.jsp"/>
+	</definition>
+	
+	
+	<definition name="excelerror" extends="adminbsb.definition">
+		<put-attribute name="title"
+			value="Customer Relationship Management"/>
+		<put-attribute name="body"
+			value="/WEB-INF/views/crm/crmform/excelerror.jsp"/>
+	</definition>
+
+</tiles-definitions>
