@@ -7,7 +7,7 @@ services:
         networks:
             - java_connect
         ports:
-            - 9090:9090
+            - 5003:5003
         restart: always
         environment:
            - DB_USERNAME=${DB_USERNAME}
