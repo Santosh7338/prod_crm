@@ -1,5 +1,6 @@
 # Use the official Tomcat 9 image as base image
-FROM tomcat:9-jre8-alpine
+# FROM tomcat:9-jre8-alpine
+FROM tomcat:9.0-jdk17-temurin
 
 # SET TIME ZONE AND LOCAL TIME
 RUN echo "Asia/Kolkata" > /etc/timezone
