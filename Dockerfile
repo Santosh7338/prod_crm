@@ -3,6 +3,10 @@
 # FROM tomcat:9.0-jdk17-temurin
 FROM jenkins/jenkins:lts-jdk11
 
+USER root
+RUN apt-get update && apt-get install -y maven
+USER jenkins
+
 # SET TIME ZONE AND LOCAL TIME
 RUN echo "Asia/Kolkata" > /etc/timezone
 RUN ln -fs /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
