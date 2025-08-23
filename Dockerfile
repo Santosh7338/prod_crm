@@ -1,7 +1,7 @@
 # Use the official Tomcat 9 image as base image
-# FROM tomcat:9-jre8-alpine
+FROM tomcat:9-jre8-alpine
 # FROM tomcat:9.0-jdk17-temurin
-FROM jenkins/jenkins:lts-jdk11
+# FROM jenkins/jenkins:lts-jdk11
 
 USER root
 RUN apt-get update && apt-get install -y maven
