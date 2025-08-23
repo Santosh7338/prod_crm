@@ -35,11 +35,11 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-<!-- 		<dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -151,14 +151,6 @@
 			<artifactId>poiji</artifactId>
 			<version>3.0.0</version> <!-- Use this version for Java 8 compatibility -->
 		</dependency>
-
-		
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>1.18.32</version> <!-- Use the latest version -->
-        <scope>provided</scope>
-    </dependency>
 
 
 
