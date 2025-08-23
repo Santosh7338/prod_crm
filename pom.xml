@@ -152,14 +152,14 @@
 			<version>3.0.0</version> <!-- Use this version for Java 8 compatibility -->
 		</dependency>
 
-		<dependencies>
+		
     <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
         <version>1.18.32</version> <!-- Use the latest version -->
         <scope>provided</scope>
     </dependency>
-</dependencies>
+
 
 
 		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-test</artifactId> 
